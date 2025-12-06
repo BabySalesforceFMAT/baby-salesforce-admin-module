@@ -196,6 +196,7 @@ Si, es totalmente posible.
 El proceso se apoya en la sólida integración que ofrece el conector de Salesforce en Power Automate combinado con conectores de Microsoft 365, como Word Online y SharePoint/OneDrive.
 
 
+---
 
 
 
@@ -306,6 +307,7 @@ Para más detalle sobre el modelo de datos estándar EDA, puede consultarse el E
 
 - [EDA ERD (Salesforce.org)](https://sfdo-docs.s3.us-west-2.amazonaws.com/EDA_ERD.pdf)
 
+---
 
 
 # Validación de documentos
@@ -377,6 +379,7 @@ de inscripción y marcarlos como **Válido** o **No Válido**.
   - `Estado_de_validacion__c` (Picklist: Pendiente, Válido, No Válido).
   - `Comentario_de_revision__c` (Long Text).
   - Campos informativos: tipo de documento, fecha de carga, referencia a `ContentDocument`, etc.
+
 
 
 
