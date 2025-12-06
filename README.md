@@ -47,10 +47,10 @@ Nota: También puede utilizarse la acción “Send an email” para enviar la no
 
 Entonces, selecciona el Flow como lo muestra la siguiente figura:
 
-![Figura 1 – Selección de evento](img/Figura1-seleccion-evento.png)
+![Figura 1 – Selección de evento](img/Figura1-seleccion-evento.PNG)
 
 
-![Figura 2 – Ventana conexión a Salesforce](img/Figura2-ventana-conexion-salesforce.png)
+![Figura 2 – Ventana conexión a Salesforce](img/Figura2-ventana-conexion-salesforce.PNG)
 
 
 Después de conectarse a la dev o la org de Salesforce como se observa en la Figura 2, se procede con agregar un evento de baja de condicionamiento, donde si se marca tal casilla llamada “Enviar constancia” entonces es cuando debe de generar el documento, en caso de que no se encuentre marcada deberá dar una etiqueta de parámetros inválidos como se muestra en la Figura 1.
@@ -347,5 +347,6 @@ de inscripción y marcarlos como **Válido** o **No Válido**.
   - `Estado_de_validacion__c` (Picklist: Pendiente, Válido, No Válido).
   - `Comentario_de_revision__c` (Long Text).
   - Campos informativos: tipo de documento, fecha de carga, referencia a `ContentDocument`, etc.
+
 
 
