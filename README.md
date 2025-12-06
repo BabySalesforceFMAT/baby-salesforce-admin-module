@@ -57,23 +57,23 @@ Después de conectarse a la dev o la org de Salesforce como se observa en la Fig
 
 Después se agrega un evento de bajo de cuando se modifica / crea algo y se añade la opción de “Poblar un documento de Microsoft Word” obteniendo la siguiente ventana de configuración:
 
-Figura 3. Ventana de parámetros de generador de documentos.
+![Figura 3 - Ventana de parámetros de generador de documentos](img/Figura3-ventana-parametros-generador-documentos.PNG)
 
 En location aparece las opciones de OneDrive, OneDrive for Business, Sharepoint y Attachments, en el caso donde se guarde la plantilla en OneDrive personal solo se podrá ver desde la cuenta en donde se guarda en cambio si se utiliza el OneDrive empresarial (Business) estando dentro de UADY tenga acceso udaba a la carpeta y se lo manda probablemente se pueda ver. Para este caso de estudio se ha utilizado el OneDrive empresarial, aunado a ello, en la opción del documento aparece: lista de archivos recientes, documentos desde OneDrive, desde un enlace y la lista dinámica, para poder utilizar la variable de la org de Salesforce, se debe emplear el modo lista dinámica con el id del registro. En otra parte de la ventana aparecerá el nombre de los datos en los cuales serán el número de campos que se utilizaran dentro de la plantilla de Word.
 
 Todos los campos deberán tener el nombre del campo de la plantilla de Word a la que se emplea, por lo tanto, para mejores recomendaciones se emplea que tenga identificadores fáciles de identificar, puesto que en el caso de este estudio se realiza un ejemplo desde 0 para obtener palabras más identificables en lugar de emplear las originarias, tal y como se observa en la siguiente figura es lo que se debe tener al momento.
 
-Figura 4. Actualización visual del flujo.
+![Figura 4 – Actualización visual del flujo](img/Figura4-actualizacion-visual-flujo.PNG)
 
-Figura 5. Visor de parámetros de transformar archivo.
+![Figura 5 – Visor de parámetros de transformar archivo](img/Figura5-visor-parametros-transformar-archivo.PNG)
 
 Como demostrado en la anterior figura, en archivo (file) debe de ir el content para que transforme el archivo de docx al tipo de archivo que se desee y en el apartado de escribir el tipo de archivo se utiliza la extensión de PDF. Aunado, a ello se utiliza unidades de la Power Platform para almacenar en una carpeta dicha constancia al igual que enviar una notificación por correo electrónico como se observa en la Figura 6.
 
-Figura 6. Conector de correo electrónico.
+![Figura 6 – Conector de correo electrónico](img/Figura6-conector-correo-electronico.PNG)
 
 Una vez conectado al correo electrónico se puede almacenar el archivo en la plataforma que tengan mediante el correo institucional y pueden recibir la notificación. Además, entonces la Figura 7 demuestra cómo se debe observar el flujo final.
 
-Figura 7. Flow resultante.
+![Figura 7 – Flow resultante](img/Figura7-flow-resultante.PNG)
 
 ## Análisis de características clave
 
@@ -347,6 +347,7 @@ de inscripción y marcarlos como **Válido** o **No Válido**.
   - `Estado_de_validacion__c` (Picklist: Pendiente, Válido, No Válido).
   - `Comentario_de_revision__c` (Long Text).
   - Campos informativos: tipo de documento, fecha de carga, referencia a `ContentDocument`, etc.
+
 
 
 
