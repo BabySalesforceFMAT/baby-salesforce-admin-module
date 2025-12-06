@@ -73,7 +73,7 @@ Como demostrado en la anterior figura, en archivo (file) debe de ir el content p
 
 Una vez conectado al correo electrónico se puede almacenar el archivo en la plataforma que tengan mediante el correo institucional y pueden recibir la notificación. Además, entonces la Figura 7 demuestra cómo se debe observar el flujo final.
 
-![Figura 7 – Flow resultante](img/Figura7-flow-resultante.PNG)
+![Figura 7 – Flow resultante](img/Figura7-flow-restante.PNG)
 
 ## Análisis de características clave
 
@@ -347,6 +347,7 @@ de inscripción y marcarlos como **Válido** o **No Válido**.
   - `Estado_de_validacion__c` (Picklist: Pendiente, Válido, No Válido).
   - `Comentario_de_revision__c` (Long Text).
   - Campos informativos: tipo de documento, fecha de carga, referencia a `ContentDocument`, etc.
+
 
 
 
